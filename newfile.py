@@ -33,11 +33,11 @@ for num in numbers:
     try:
         # Send the message
         for _ in range(SEND_COUNT):
-            pyautogui.typewrite(MESSAGE)
+            #pyautogui.typewrite(MESSAGE)
             pyautogui.press('enter')
             time.sleep(2)
 
-        print(f"Message sent to: {num}")
+        print(f"Message sent to: +88{num}")
         sent_numbers.append(num)
 
         # Wait 20–25 seconds randomly
